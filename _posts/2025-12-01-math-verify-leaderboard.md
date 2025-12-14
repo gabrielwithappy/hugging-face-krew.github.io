@@ -37,7 +37,7 @@ Open LLM Leaderboard는 Hugging Face Hub에서 가장 많이 활용되는 리더
 이에 대한 정답(ground truth)은 다음과 같습니다.
 > 71
 
-기존 리더보드에서는 모델이 다음과 같이 고정된 문자열로 답변을으 마무리해야 합니다 ([Minerva-Math 논문](https://arxiv.org/abs/2206.14858)):
+기존 리더보드에서는 모델이 다음과 같이 고정된 문자열로 답변을 마무리해야 합니다 ([Minerva-Math 논문](https://arxiv.org/abs/2206.14858)):
 
 > “Final answer is [ANSWER]. I hope it is correct.”
 
