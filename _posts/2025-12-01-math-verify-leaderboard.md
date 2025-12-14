@@ -102,7 +102,7 @@ Open LLM Leaderboard는 Hugging Face Hub에서 가장 많이 활용되는 리더
 
 우리는 처음에 Qwen 모델을 점검하는 과정에서 수학 평가 방식의 문제를 발견했습니다. 기존 리더보드에서 Qwen 모델은 공식 성능(자체 보고 점수)보다 비정상적으로 낮은 점수를 받고 있었기 때문입니다. Math-Verify 적용 이후, Qwen 모델의 점수는 두 배 이상 증가하며 이전 평가가 얼마나 과소평가되었는지를 보여주었습니다.
 
-하지만, 영향받은 것은 Qwen 모델만이 아닙니다. DeepSeek 모델들도 크게 개선되었습니다. Math-Verify 적용 후 DeepSeek 모델의 점수는 거의 세 배 가까이 상승했습니다! 이는 DeepSeek 모델이 정답을 일반적으로 `(\boxed{})` 표기 안에 넣어 출력하는데, 기존 평가 방식은 이 정답 형식을 제대로 추출하지 못해 실제로는 맞은 답을 오답으로 처리했기 떄문입니다.
+하지만, 영향받은 것은 Qwen 모델만이 아닙니다. DeepSeek 모델들도 크게 개선되었습니다. Math-Verify 적용 후 DeepSeek 모델의 점수는 거의 세 배 가까이 상승했습니다! 이는 DeepSeek 모델이 정답을 일반적으로 `(\boxed{})` 표기 안에 넣어 출력하는데, 기존 평가 방식은 이 정답 형식을 제대로 추출하지 못해 실제로는 맞은 답을 오답으로 처리했기 때문입니다.
 
 ![](https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/math_verify_leaderboard/model-family-change.png)
 
