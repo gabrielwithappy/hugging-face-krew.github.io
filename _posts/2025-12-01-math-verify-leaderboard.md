@@ -51,7 +51,7 @@ Open LLM Leaderboard는 Hugging Face Hub에서 가장 많이 활용되는 리더
 | 📄 예시                                                                                                              | ❗️문제 유형 | ✅ Math-Verify 변환값 | 🛑 기존 리더보드 결과 |
 | ------------------------------------------------------------------------------------------------------------------ | ------- | ----------------- | ------------- |
 | Therefore, the perimeter of one of these triangles is $14 + 7\sqrt{2}$ inches, expressed in simplest radical form. | 추출 실패   | `7*sqrt(2) + 14`    | None          |
-| Therefore, the sum of the infinite geometric series is (\frac{7}{9}).                                              | 추출 실패   | 7/9               | None          |
+| Therefore, the sum of the infinite geometric series is (\frac{7}{9}).                                              | 추출 실패   | `7/9`               | None          |
 | ( p(n) ) and ( p(n+1) ) share a common factor greater than 1 is (\boxed{41}).                                      | 추출 실패   | 4                 | None          |
 | So it’s \frac{1}{9}                                                                                                | 추출 실패   | 1/9               | None          |
 | Concluding he has \boxed{5} cars                                                                                   | 추출 실패   | 5                 | None          |
