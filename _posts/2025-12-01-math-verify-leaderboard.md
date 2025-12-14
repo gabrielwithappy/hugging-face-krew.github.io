@@ -108,7 +108,7 @@ Open LLM Leaderboard는 Hugging Face Hub에서 가장 많이 활용되는 리더
 
 ### MATH-Hard 리더보드 변화
 
-앞서 언급했듯, 상위 20개 모델 순위는 크게 변동되었으며, Nvidia의 AceMath 모델들이 이제 MATH-Hard 리더보드를 장악하고 있습니다. 특히 Qwen 파생 모델들은 거의 AceMath 바로 아래 대부분의 순위를 차지하고 있습니다. 아래는 기존 및 새로운 상위 20개 모델 리더보드 전체 비교 테이블입니다:
+앞서 언급했듯, 상위 20개 모델 순위는 크게 변동되었으며, **Nvidia의 AceMath** 모델들이 이제 MATH-Hard 리더보드를 장악하고 있습니다. 특히 **Qwen** 파생 모델들은 거의 AceMath 바로 아래 대부분의 순위를 차지하고 있습니다. 아래는 기존 및 새로운 상위 20개 모델 리더보드 전체 비교 테이블입니다:
 
 ![](https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/math_verify_leaderboard/math-hard-change.png)
 
