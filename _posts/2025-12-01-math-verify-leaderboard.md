@@ -53,7 +53,7 @@ Open LLM Leaderboard는 Hugging Face Hub에서 가장 많이 활용되는 리더
 | Therefore, the perimeter of one of these triangles is $14 + 7\sqrt{2}$ inches, expressed in simplest radical form. | 추출 실패   | `7*sqrt(2) + 14`    | None          |
 | Therefore, the sum of the infinite geometric series is (\frac{7}{9}).                                              | 추출 실패   | `7/9`               | None          |
 | ( p(n) ) and ( p(n+1) ) share a common factor greater than 1 is (\boxed{41}).                                      | 추출 실패   | `4`                 | None          |
-| So it’s \frac{1}{9}                                                                                                | 추출 실패   | 1/9               | None          |
+| So it’s \frac{1}{9}                                                                                                | 추출 실패   | `1/9`               | None          |
 | Concluding he has \boxed{5} cars                                                                                   | 추출 실패   | 5                 | None          |
 
 다음 단계인 `[ANSWER]`를 기호 표현으로 변환하는 과정에서도 SymPy 파싱과 관련된 다양한 문제가 있었습니다: 
