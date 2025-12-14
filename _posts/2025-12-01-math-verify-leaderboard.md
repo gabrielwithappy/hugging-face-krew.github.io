@@ -94,7 +94,7 @@ Open LLM Leaderboard는 Hugging Face Hub에서 가장 많이 활용되는 리더
 
 ![](https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/math_verify_leaderboard/score-change.png)
 
-가장 큰 개선을 보여준 두 개의 서브셋은 모두 대수 관련 영역(Algebra와 Prealgebra)으로, 각각 8.27점과 6.93점의 상승이 있었습니다. 극단적인 경우 일부 모델은 이 영역에서 거의 90점 가까이 향상되기도 했습니다. 우리는 이러한 서브셋이 여러 해답이 존재하는 문제(집합 형태)나 행렬 형식으로 답을 표현하는 문제가 많기 때문에 개선 폭이 컸다고 보고 있습니다. Math-Verify는 이러한 형식의 답변 처리 능력을 크게 향상시켰고, 그 결과 높은 점수 상승으로 이어졌습니다.
+가장 큰 개선을 보여준 두 개의 서브셋은 모두 대수 관련 영역(Algebra와 Prealgebra)으로, 각각 **8.27점**과 **6.93점**의 상승이 있었습니다. 극단적인 경우 일부 모델은 이 영역에서 거의 **90점** 가까이 향상되기도 했습니다. 우리는 이러한 서브셋이 여러 해답이 존재하는 문제(집합 형태)나 행렬 형식으로 답을 표현하는 문제가 많기 때문에 개선 폭이 컸다고 보고 있습니다. Math-Verify는 이러한 형식의 답변 처리 능력을 크게 향상시켰고, 그 결과 높은 점수 상승으로 이어졌습니다.
 
 ![](https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/math_verify_leaderboard/subset-change.png)
 
