@@ -64,7 +64,7 @@ Open LLM Leaderboard는 Hugging Face Hub에서 가장 많이 활용되는 리더
 | (23)                                                                            | LaTeX 경계 문자로 추출 실패 | `23`                                                  | None       |
 | ((- \infty, -14) \cup (-3, \infty)).                                            | 구간 표현 추출 실패        | Union(Interval.open(-oo, -14), Interval.open(-3, oo)) | None       |
 | 100%                                                                            | 잘못된 기호로 인한 추출 실패   | `1`                                                   | None       |
-| \begin{pmatrix}\frac{1}{50}&\frac{7}{50}\frac{7}{50}&\frac{49}{50}\end{pmatrix} | 행렬 추출 실패           | Matrix([[1/50, 7/50], [7/50, 49/50]])                 | None       |
+| \begin{pmatrix}\frac{1}{50}&\frac{7}{50}\\frac{7}{50}&\frac{49}{50}\end{pmatrix} | 행렬 추출 실패           | Matrix([[1/50, 7/50], [7/50, 49/50]])                 | None       |
 
 
 마지막으로, 추출된 답과 정답 표현을 비교하는 과정에서도 여러 문제가 발생했습니다:
