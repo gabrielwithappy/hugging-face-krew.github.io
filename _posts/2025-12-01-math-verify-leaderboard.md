@@ -90,7 +90,7 @@ Open LLM Leaderboard는 Hugging Face Hub에서 가장 많이 활용되는 리더
 
 ### 변화의 영향
 
-평균적으로 모델들은 기존보다 61문제를 더 맞혔고, 이에 따라 총점 기준으로 4.66점 상승이라는 큰 변화를 기록했습니다!
+평균적으로 모델들은 기존보다 **61문제**를 더 맞혔고, 이에 따라 총점 기준으로 **4.66점** 상승이라는 큰 변화를 기록했습니다!
 
 ![](https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/math_verify_leaderboard/score-change.png)
 
