@@ -60,7 +60,7 @@ Open LLM Leaderboard는 Hugging Face Hub에서 가장 많이 활용되는 리더
 
 | 📄 예시                                                                           | ❗️문제 유형            | ✅ Math-Verify 변환값                                     | 🛑 기존 리더보드 |
 | ------------------------------------------------------------------------------- | ------------------ | ----------------------------------------------------- | ---------- |
-| The final answer is $2x + 4y + z - 19 = 0$. I hope it is correct.               | 매개변수 방정식 부분 파싱 실패  | Eq(2 x + 4 y + z - 19, 0)                             | 0          |
+| The final answer is $2x + 4y + z - 19 = 0$. I hope it is correct.               | 매개변수 방정식 부분 파싱 실패  | Eq(2*x + 4*y + z - 19, 0)                             | 0          |
 | (23)                                                                            | LaTeX 경계 문자로 추출 실패 | `23`                                                  | None       |
 | ((- \infty, -14) \cup (-3, \infty)).                                            | 구간 표현 추출 실패        | Union(Interval.open(-oo, -14), Interval.open(-3, oo)) | None       |
 | 100%                                                                            | 잘못된 기호로 인한 추출 실패   | `1`                                                   | None       |
