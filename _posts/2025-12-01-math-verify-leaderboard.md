@@ -8,7 +8,7 @@ image: assets/images/blog/posts/2025-12-01-math-verify-leaderboard/thumbnail.png
 
 * TOC
 {:toc}
-
+<!--toc-->
 _이 글은 Hugging Face 블로그의 [Fixing Open LLM Leaderboard with Math-Verify](https://huggingface.co/blog/math_verify_leaderboard)를 한국어로 번역한 글입니다._
 
 ---
