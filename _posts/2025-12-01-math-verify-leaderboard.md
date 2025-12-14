@@ -24,7 +24,7 @@ _이 글은 Hugging Face 블로그의 [Fixing Open LLM Leaderboard with Math-Ver
 
 ## 왜 Open LLM Leaderboard의 수학 평가는 제대로 작동하지 않았을까?
 
-Open LLM Leaderboard는 Hugging Face Hub에서 가장 많이 활용되는 리더보드로, 다양한 태스크에서 오픈 LLM(대규모 언어 모델)의 성능을 비교합니다. 이 중 MATH-Hard는 수학 문제에 특화된 평가로, LLM이 고등학교 및 대학 수준의 수학 문제를 얼마나 정확하게 풀 수 있는지 측정합니다. 이는 [Hendrycks MATH](https://github.com/hendrycks/math) 데이터셋의 최고 난이도(Level 5) 문제 1,324개이며, 문제는 선행 미적분(Precalculus), 기초 대수(Prealgebra), 대수(Algebra), 중급 대수(Intermediate Algebra), 조합·확률(Counting/Probability), 정수론(Number Theory) 등 7개의 주제로 구성되어 있습니다. 문제는 5-shot 방식으로 진행되며, 모델은 문제를 풀기 전에 예시 5개를 참고해 답변 형식을 학습합니다.
+Open LLM Leaderboard는 Hugging Face Hub에서 가장 많이 활용되는 리더보드로, 다양한 태스크에서 오픈 LLM(대규모 언어 모델)의 성능을 비교합니다. 이 중 MATH-Hard는 수학 문제에 특화된 평가로, LLM이 고등학교 및 대학 수준의 수학 문제를 얼마나 정확하게 풀 수 있는지 측정합니다. 이 수학 문제들은 [Hendrycks MATH](https://github.com/hendrycks/math) 데이터셋의 최고 난이도(Level 5) 문제 중 1,324개를 뽑아, 선행 미적분(Precalculus), 기초 대수(Prealgebra), 대수(Algebra), 중급 대수(Intermediate Algebra), 조합·확률(Counting/Probability), 정수론(Number Theory) 등 7개의 주제로 구성되어 있습니다. 문제는 5-shot 방식으로 진행되며, 모델은 문제를 풀기 전에 예시 5개를 참고해 답변 형식을 학습합니다.
 
 일반적인 문제 예시는 다음과 같습니다:
 
