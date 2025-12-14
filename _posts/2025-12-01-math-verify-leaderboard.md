@@ -77,7 +77,7 @@ Open LLM Leaderboard는 Hugging Face Hub에서 가장 많이 활용되는 리더
 | Matrix.ones == Matrix.ones | 행렬 동등성 비교 미지원 | True          | False      |
 | {1} \union {1,4} == {1,4}  | 집합 비교 미지원     | True          | False      |
 
-**이 모든 문제가 이제 새로운 Math-Verify 파서로 완전히 해결 가능합니다!**
+**새로운 Math-Verify 파서로 이 모든 문제를 해결 할 수 있습니다!**
 
 
 
