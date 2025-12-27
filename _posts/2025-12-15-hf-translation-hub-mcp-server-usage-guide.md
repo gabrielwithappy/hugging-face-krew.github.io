@@ -3,7 +3,7 @@ layout: post
 title: "HuggingFace 번역 MCP 서버 사용법"
 author: hyeonseo
 categories: [MCP]
-image: assets/images/blog/posts/2025-12-15-hf-translation-hub-mcp-server-usage-guide/thumbnail.png
+image: assets/images/blog/posts/2025-12-15-hf-i18n-mcp-server-usage-guide/thumbnail.png
 ---
 * TOC
 {:toc}
